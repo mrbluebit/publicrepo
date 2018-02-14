@@ -1,0 +1,49 @@
+ a mkdir store
+   cd store
+   git init
+   gitstatus
+
+b  git add f1.txt
+  git add f2.txt
+  git add f3.txt
+   gitstatus
+   git commit -m "3 files added"
+
+c git rm -f f1.txt
+
+
+d GIT RESET -- HARD head^
+
+
+e  git commit -m "deleted file restored"
+
+
+
+f  git remote add publicrepo https://githup.com/mrbluebit/testbit.git
+   git remote
+git push -u publicrepo master    *failed
+git remove publicrepo
+git remote add publicrepo https://githup.com/mrbluebit/testbit.git
+git push -u publicrepo master      *worked
+
+
+
+h     git branch ReadMe
+       git checkout ReadMe
+
+
+
+g i     git touch ReadMe.md
+        git status
+        git add ReadMe.md
+        git status
+
+
+
+j       git commit -m "readme file added"
+
+k git checkout master
+  git merge ReadMe
+
+
+last step add and commit this file 
