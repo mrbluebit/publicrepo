@@ -7,7 +7,7 @@ b  git add f1.txt
   git add f2.txt
   git add f3.txt
    gitstatus
-   git commit -m "3 files added"
+   git commit -m "3 files added
 
 c git rm -f f1.txt
 
